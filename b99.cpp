@@ -28,7 +28,8 @@ class B :public A{
 
 
 int main(){
-  A a(5);
+  A a(77997);
+a.age =100;
 
   cout<<a.get_age();
   
