@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std; 
 
 int main(){
@@ -10,5 +11,6 @@ int main(){
    int c{100};
    cout<<~c;
     
+
     return 0;
 }
