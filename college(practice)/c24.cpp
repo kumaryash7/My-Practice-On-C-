@@ -11,10 +11,10 @@ int main()
     int dec=0;
     int base =1;
 
-    int swap =num;
-    while(swap>0){
-         int final_dig=swap%10;
-         swap/=10;
+    int flag =num;
+    while(flag>0){
+         int final_dig=flag%10;
+         flag/=10;
 
          dec +=final_dig*base;
          base*=2;

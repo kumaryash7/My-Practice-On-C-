@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//INTO BINARY REPRESENTATION.
 int main()
 {
     int number;

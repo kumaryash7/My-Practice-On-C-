@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
     int *Aint;
-    Aint=new int[3];
+    Aint=new int[3];  // INITIALISNG DYNAMICALLY
 
     for(int i=0;i<3;i++){
         Aint[i]=rand();
@@ -16,13 +16,12 @@ int main(){
         cout<<Aint[i]<<endl;
 
     }
-
+  // USE OF IOMANIP HEADER FILE
     int a=10;
     int b=100;
     cout<<a<<setw(50)<<b;
     setprecision(6);
-    int c=10/3;
-    cout<<c;
+    
     
     return 0;
 }
